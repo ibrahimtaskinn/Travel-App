@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="tripModel"
+            type="com.example.graduationproject.model.trip.TripModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/trip_card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_5sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="@dimen/_118sdp">
+
+            <ImageView
+                android:id="@+id/trip_image"
+                android:layout_width="@dimen/_275sdp"
+                android:layout_height="@dimen/_118sdp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/home_img"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/trip_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{tripModel.country}"
+                android:fontFamily="@font/source_sans_pro"
+                android:textStyle="bold"
+                android:textColor="@color/home_button_text_color"
+                android:textSize="@dimen/_19ssp"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_35sdp"
+                app:layout_constraintStart_toStartOf="@+id/trip_image"
+                app:layout_constraintEnd_toEndOf="@+id/trip_image"
+                app:layout_constraintTop_toTopOf="@+id/trip_image"/>
+
+            <TextView
+                android:id="@+id/trip_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{tripModel.city}"
+                android:fontFamily="@font/source_sans_pro"
+                android:textStyle="bold"
+                android:textColor="@color/home_button_text_color"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_62sdp"
+                app:layout_constraintStart_toStartOf="@+id/trip_image"
+                app:layout_constraintEnd_toEndOf="@+id/trip_image"
+                app:layout_constraintTop_toTopOf="@+id/trip_image" />
+
+            <TextView
+                android:id="@+id/trip_date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{tripModel.date1}"
+                android:fontFamily="@font/source_sans_pro"
+                android:textStyle="bold"
+                android:textColor="@color/home_button_text_color"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_90sdp"
+                app:layout_constraintStart_toStartOf="@+id/trip_image"
+                app:layout_constraintEnd_toEndOf="@+id/trip_date2"
+                app:layout_constraintTop_toTopOf="@+id/trip_image" />
+
+            <TextView
+                android:id="@+id/trip_date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{tripModel.date2}"
+                android:fontFamily="@font/source_sans_pro"
+                android:textStyle="bold"
+                android:textColor="@color/home_button_text_color"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_90sdp"
+                app:layout_constraintStart_toStartOf="@+id/trip_date1"
+                app:layout_constraintEnd_toEndOf="@+id/trip_image"
+                app:layout_constraintTop_toTopOf="@+id/trip_image" />
+
+
+            <ImageButton
+                android:id="@+id/bookmark_delete_bottom"
+                app:srcCompat="@drawable/ic_bookmark_icon"
+                android:background="@drawable/bookmark_icon_bg_rounded"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_marginStart="@dimen/_244sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginEnd="@dimen/_9sdp"
+                app:layout_constraintEnd_toEndOf="@+id/trip_image"
+                app:layout_constraintStart_toStartOf="@+id/trip_image"
+                app:layout_constraintTop_toTopOf="@+id/trip_image" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

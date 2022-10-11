@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable-v24/ic_add_trip.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable-v24/ic_trips_tab_icon.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/bookmark_icon_bg_rounded.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/bookmarkiconrounded.xml" value="0.196" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/detail_constraint_background.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/guide_selected.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/home_bottom_bg.xml" value="0.124" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_bookmark.xml" value="0.196" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_cars.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_flights.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_guide_false.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_like_icon.xml" value="0.159" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_location_icon.xml" value="0.159" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_search_1.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_search_false.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_searchview_icon.xml" value="0.124" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/ic_taxi.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/like_icon_bg_rounded.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/rounded.xml" value="0.196" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/search_selected.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/drawable/trip_selected.xml" value="0.1525" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/font/source_sans_pro.xml" value="0.11018518518518519" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/bookmark_recycler_item.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_all.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_detail.xml" value="0.136" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_fligths.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_guide.xml" value="0.176" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_home.xml" value="0.136" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_hotels.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_search_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_tab_bookmark.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_tab_trip.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_transportations.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_trip.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_trip_add_detail.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/fragment_trip_add_list.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/guide_categories_item.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/might_need_these_recyclerview_item.xml" value="0.4" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/nearby_attractions_recyclerview_item.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/search_recycler_item.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/tab_bookmark.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/tab_layout_recycler_item.xml" value="0.253125" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/tab_layout_recyclerview_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/tab_trip_recyler_item.xml" value="0.1" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/top_destinations_recyclerview_item.xml" value="0.8" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/top_destinations_reycler_item.xml" value="0.152" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/top_pick_articles_recycler_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/layout/top_pick_articles_recyclerview_item.xml" value="0.2" />
+        <entry key="..\:/kotlin_project/FMSSBilisim-Patika-Android-Kotlin-Bootcamp-Graduation-Project/app/src/main/res/menu/button_navigation_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

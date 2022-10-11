@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="adapter"
+            type="com.example.graduationproject.ui.search.TopDestinationsAdapter" />
+        <variable
+            name="adapter2"
+            type="com.example.graduationproject.ui.search.NearbyAdapter" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.search.SearchFragment"
+        android:id="@+id/search_fragment">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:layout_marginStart="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_45sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fontFamily="@font/source_sans_pro"
+            android:textStyle="bold"
+            android:textSize="@dimen/_23ssp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/searchBottom"
+            style="@style/SearchButtonStyle"
+            app:shapeAppearanceOverlay="@style/SearchButtonStyle"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_93sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:text="@string/where_next"
+            android:drawableEnd="@drawable/ic_searchview_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_destinations"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/source_sans_pro"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_142sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_154sdp"
+            android:orientation="horizontal"
+            android:adapter="@{adapter}"
+            tools:listitem="@layout/top_destinations_recyclerview_item"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_9sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView6"
+            />
+
+        <TextView
+            android:id="@+id/nearby_attractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nearby_attractions"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/source_sans_pro"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_343sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/nearby_attractions_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_240sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:adapter="@{adapter2}"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nearby_attractions"
+            tools:ignore="MissingConstraints"
+            tools:listitem="@layout/nearby_attractions_recyclerview_item" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

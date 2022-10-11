@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="item_back">#FF4760</color>
+    <color name="home_button_color">#4DFCFCFD</color>
+    <color name="image_text_color">#FCFCFD</color>
+    <color name="home_button_text_color">#FCFCFD</color>
+    <color name="tab_layout_color">#C2C5D6</color>
+    <color name="tab_layout_title">#181A25</color>
+    <color name="search_text_color">#52577A</color>
+    <color name="bookmark_icon_bg">#33FCFCFD</color>
+    <color name="guide_button_text_color">#0048F0</color>
+    <color name="detail_textview_color1">#0A2753</color>
+    <color name="detail_textview_color2">#39414B</color>
+    <color name="like_icon_bg_color">#FFE9E4</color>
+
+</resources>

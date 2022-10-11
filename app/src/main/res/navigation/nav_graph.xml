@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_page">
+
+    <fragment
+        android:id="@+id/home_page"
+        android:name="com.example.graduationproject.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_page_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/search_page"
+        android:name="com.example.graduationproject.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_page_to_searchItemFragment"
+            app:destination="@id/searchItemFragment" />
+        <action
+            android:id="@+id/action_search_page_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trip_page"
+        android:name="com.example.graduationproject.ui.trip.TripFragment"
+        android:label="fragment_trip"
+        tools:layout="@layout/fragment_trip" >
+        <action
+            android:id="@+id/action_trip_page_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_trip_page_to_tripAddListFragment"
+            app:destination="@id/tripAddListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/guide_page"
+        android:name="com.example.graduationproject.ui.guide.GuideFragment"
+        android:label="fragment_guide"
+        tools:layout="@layout/fragment_guide" >
+        <action
+            android:id="@+id/action_guide_page_to_searchItemFragment"
+            app:destination="@id/searchItemFragment" />
+        <action
+            android:id="@+id/action_guide_page_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.graduationproject.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/searchItemFragment"
+        android:name="com.example.graduationproject.ui.search.searchitem.SearchItemFragment"
+        android:label="fragment_search_item"
+        tools:layout="@layout/fragment_search_item" >
+        <action
+            android:id="@+id/action_searchItemFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tripAddListFragment"
+        android:name="com.example.graduationproject.ui.trip.tablayout.trips.tripadd.TripAddListFragment"
+        android:label="fragment_trip_add_list"
+        tools:layout="@layout/fragment_trip_add_list" >
+        <action
+            android:id="@+id/action_tripAddListFragment_to_tripAddDetailFragment"
+            app:destination="@id/tripAddDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tripAddDetailFragment"
+        android:name="com.example.graduationproject.ui.trip.tablayout.trips.tripadd.TripAddDetailFragment"
+        android:label="TripAddDetailFragment" >
+        <action
+            android:id="@+id/action_tripAddDetailFragment_to_trip_page"
+            app:destination="@id/trip_page" />
+    </fragment>
+</navigation>

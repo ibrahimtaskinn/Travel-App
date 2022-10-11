@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="adapter"
+            type="com.example.graduationproject.ui.guide.MightneedAdapter" />
+        <variable
+            name="adapter2"
+            type="com.example.graduationproject.ui.guide.ToppickAdapter" />
+        <variable
+            name="adapter3"
+            type="com.example.graduationproject.ui.guide.GuideCategoryAdapter" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.guide.GuideFragment"
+        android:id="@+id/guide_fragment">
+
+
+        <TextView
+            android:id="@+id/guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Guide"
+            android:layout_marginStart="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_45sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fontFamily="@font/source_sans_pro"
+            android:textStyle="bold"
+            android:textSize="@dimen/_23ssp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/might_need_these"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/might_need_these"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_19sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guide"
+            android:fontFamily="@font/source_sans_pro"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/black" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/might_need_these_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_96sdp"
+            android:orientation="horizontal"
+            android:adapter="@{adapter}"
+            tools:listitem="@layout/might_need_these_recyclerview_item"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/might_need_these" />
+
+        <Button
+            android:id="@+id/guide_search_Bottom"
+            style="@style/SearchButtonStyle"
+            app:shapeAppearanceOverlay="@style/SearchButtonStyle"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_29sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:text="@string/a_country_a_city_a_place_or_anything"
+            android:textSize="@dimen/_11sdp"
+            android:drawableEnd="@drawable/ic_searchview_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/might_need_these_recyclerView"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/guide_categories_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:adapter="@{adapter3}"
+            tools:listitem="@layout/guide_categories_item"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guide_search_Bottom"/>
+
+        <TextView
+            android:id="@+id/top_pick_articles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_pick_articles"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guide_categories_recyclerView"
+            android:fontFamily="@font/source_sans_pro"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_pick_articles_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:adapter="@{adapter2}"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/top_pick_articles"
+            tools:listitem="@layout/top_pick_articles_recyclerview_item" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

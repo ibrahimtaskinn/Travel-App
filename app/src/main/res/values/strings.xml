@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GraduationProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty" />
+    <string name="flights">Flights</string>
+    <string name="hotels">Hotels</string>
+    <string name="cars">Cars</string>
+    <string name="taxi">Taxi</string>
+    <string name="all">All</string>
+    <string name="transportations">Transportations</string>
+    <string name="deals">DEALS</string>
+    <string name="where_s_your_nnext_destination">Where\'s your\nnext destination?</string>
+    <string name="search">Search</string>
+    <string name="where_next">Where next?</string>
+    <string name="top_destinations">Top Destinations</string>
+    <string name="nearby_attractions">NEARBY ATTRACTIONS</string>
+    <string name="Guide">Guide</string>
+    <string name="might_need_these">MIGHT NEED THESE</string>
+    <string name="see_all">See all</string>
+    <string name="a_country_a_city_a_place_or_anything">A country,a city,a place...or anything</string>
+    <string name="top_pick_articles">TOP-PICK ARTICLES</string>
+    <string name="add_bookmark">Add Bookmark</string>
+    <string name="trip_plan">trip plan</string>
+    <string name="add_trips">Add Trips</string>
+    <string name="travel_start">travel start</string>
+    <string name="travel_end">travel end</string>
+</resources>

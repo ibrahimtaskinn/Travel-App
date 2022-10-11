@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_page"
+        android:enabled="true"
+        android:icon="@drawable/home_selected"
+        android:title="home" />
+    <item
+        android:id="@+id/search_page"
+        android:enabled="true"
+        android:icon="@drawable/search_selected"
+        android:title="search"/>
+    <item
+        android:id="@+id/trip_page"
+        android:enabled="true"
+        android:icon="@drawable/trip_selected"
+        android:title="trip"/>
+    <item
+        android:id="@+id/guide_page"
+        android:enabled="true"
+        android:icon="@drawable/guide_selected"
+        android:title="guide"/>
+
+</menu>
