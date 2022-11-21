@@ -20,7 +20,6 @@
 - DataBinding
 - Navigation Component
 - Picasso
-- MVVM
 - Shared Preferences
 - Room Database
 
